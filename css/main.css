@@ -5,7 +5,7 @@
 body{
     font-family: 'Lora', serif;
     margin: 0 auto;
-    background-image: url(../img/nicole-nessi-698976-unsplash.jpg);
+    background-image: url("../img/nicole-nessi-698976-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -66,7 +66,7 @@ body{
     position: relative; 
 }
 .bg-img{
-    background-image: url(../img/drew-beamer-723259-unsplash.jpg);
+    background-image: url("../img/drew-beamer-723259-unsplash.jpg");
     min-height: 200px;
     background-position: center;
     background-repeat: no-repeat;
