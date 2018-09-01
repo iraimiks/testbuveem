@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+    margin: 0 auto;
+    background-image: url(../img/nicole-nessi-698976-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*Header*/
+.row{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 130px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+.column{
+    float: left;
+    height: 100px;
+}
+.left{
+    width: 45%;
+    text-align: right;
+    padding: 35px;
+}
+.right{
+    width: 55%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Logo*/
+.column img{
+    position: relative;
+    margin: 20px;
+    
+
+}
+/*Navigation Bar*/
+#navbar{
+    overflow: hidden;
+    background-color: rgba(255, 196, 0, 0.527);
+    
+}
+#navbar a{
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px; 
+}
+#navbar a:hover{
+    background-color: burlywood;
+}
+.container-nav{
+    position: relative; 
+}
+.bg-img{
+    background-image: url(../img/drew-beamer-723259-unsplash.jpg);
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+h2{
+    margin: 0 auto;
+
+}
+/*contentSection*/
+
+.section{
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(250, 192, 2, 0.5);
+    box-shadow: 5px 10px 18px #b3a52bcb;
+}
+.double-line{
+    width: auto;
+    height: 10px;
+    border-top: solid #ffd000;
+    border-bottom: solid #ffd000;
+    
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column1{
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+.left1{
+    width: 70%;
+}
+.right1{
+    width: 30%;
+}
+.column1 img{
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+.info-line{
+ 
+    margin: 0;
+    padding: 20px;
+}
+/*Footer*/
+.column2 {
+    float: left;
+    padding: 10px;
+    height: 350px; 
+    display: inline-block;
+}
+
+.left2 {
+  width: 33.3%;
+  background-color: #ffd000;
+  padding: 20px;
+  
+}
+.right2{
+    width: 33.3%;
+    background-color: #8d876e50;
+    padding: 20px;
+  }
+.midle2{
+    width: 33.3%;
+    border-style: ridge;
+}
+
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column{   
+        float: none;
+        margin-right:0;
+        width:auto;
+        border:0;
+         
+    }
+    .column1{   
+        float: none;
+        margin-right:0;
+        width:auto;
+        height: auto;
+        border:0;
+        
+    }
+    .column2{   
+        float: none;
+        margin-right:0;
+        width:auto;
+        border:0;
+          
+    }
+    .left2{   
+        background-color: #ffd000;
+        width: 100%;  
+        
+    }
+    .right2{   
+        background-color: #f8f5e9;
+        width: 100%;  
+        
+    }
+}
